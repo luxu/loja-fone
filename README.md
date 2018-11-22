@@ -29,3 +29,11 @@ Para ficar mais fácil de identificar qual o conteúdo de certas páginas coloca
 ```
 <title>Página de Login | site do Luxu</title>
 ```
+
+
+
+# CSS
+
+É uma linguagem de estilo, isso quer dizer que ela tem as seguintes responsabilidades:
+
+-  Visual
