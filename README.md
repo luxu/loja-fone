@@ -31,9 +31,18 @@ Para ficar mais fácil de identificar qual o conteúdo de certas páginas coloca
 ```
 
 
-
 # CSS
 
 É uma linguagem de estilo, isso quer dizer que ela tem as seguintes responsabilidades:
 
 -  Visual
+
+- `inherit` - (Propriedade do CSS que herda do pai os estilos do mesmo, geralmente na tag <a> onde é utilizado pois geralmente a propriedade <link> qdo é cor utiliza o padrão do navegador, daí herdando vem a cor do pai)
+
+- `float` - Novo contexto e nunca esconde o conteúdo e o width/height são definidos pelo conteúdo
+
+- `overflow` - Recalcula o contexto. Quando usamos dentro do pai dois filhos com float o pai some pois o float cria um novo contexto, mas o pai não sabe disso e acaba sumindo, para ajustar isso usamos `overflow` que recalcula para o pai e mostra o mesmo.
+
+- `margin` - Espaçamento do elemento em relação a outros elementos. (Respiro externo)
+
+- `padding` - Espaçamento dentro do próprio elemento. (Respiro interno)
