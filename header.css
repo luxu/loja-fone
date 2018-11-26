@@ -34,3 +34,12 @@ a {
   color: inherit;
   margin-right: 60px;
 }
+
+button {
+  margin-top: 975px;
+  margin-left: 900px;
+  background-color: #252c41;
+  color: #ffffff;
+  width: 199px;
+  height: 60px;
+}
