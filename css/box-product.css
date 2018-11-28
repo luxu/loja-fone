@@ -1,7 +1,7 @@
 .box-product {
+  float: right;
   font-family: Arial, "Roboto", sans-serif;
   color: #ffffff;
-  margin-top: 150px;
 }
 
 .item {
@@ -23,11 +23,8 @@
 .box {
   margin: 80px 0;
 }
-<<<<<<< HEAD
-=======
 
 .item.-action {
   display: inline;
   padding-right: 38px;
 }
->>>>>>> 5fdeacb1733cb7a8a14280ca734051f88783f0f4
