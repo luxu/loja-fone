@@ -47,10 +47,14 @@ Para ficar mais fácil de identificar qual o conteúdo de certas páginas coloca
 
 - `padding` - Espaçamento dentro do próprio elemento. (Respiro interno)
 
+Exemplo de uso para qdo temos 2 valores iguais. top/bottom right/left (10px 20px)
+Exemplo de uso para qdo temos 1 valor igual. top right/left bottom (10px 20px 30px)
+
 - `clear` - Quando queremos "limpar" o `float` usamos ele, daí o elemento a ser limpo caí abaixo do elemento não limpo, no exemplo criamos 2 <nav>s e elas ficaram um do lado da outra, como queríamos a segunda embaixo aplicamos `clear:right`, daí o que está a direita caiu.
 
 - `display` - inline: deixa os elementos na mesma linha e o width e height não funcionam.
-- `display` - block: não deixa na mesma linha e ele deixa definir o width e height
+
+- `display` - block: não deixa na mesma linha e podemos definir o width e height
 
 -  `line-height` - Alinha verticalmente qdo tem uma linha de texto dentro da caixa
 
