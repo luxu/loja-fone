@@ -46,3 +46,24 @@ Para ficar mais fácil de identificar qual o conteúdo de certas páginas coloca
 - `margin` - Espaçamento do elemento em relação a outros elementos. (Respiro externo)
 
 - `padding` - Espaçamento dentro do próprio elemento. (Respiro interno)
+
+- `clear` - Quando queremos "limpar" o `float` usamos ele, daí o elemento a ser limpo caí abaixo do elemento não limpo, no exemplo criamos 2 <nav>s e elas ficaram um do lado da outra, como queríamos a segunda embaixo aplicamos `clear:right`, daí o que está a direita caiu.
+
+- `display` - inline: deixa os elementos na mesma linha e o width e height não funcionam.
+- `display` - block: não deixa na mesma linha e ele deixa definir o width e height
+
+-  `line-height` - Alinha verticalmente qdo tem uma linha de texto dentro da caixa
+
+- `position: absolute` - Cria um novo contexto, movendo o elemento na tela de forma absoluta e manda para trás ou some os outros elementos da página e quem define a largura e altura é o conteúdo. Por isso junto com o `position: absolute` utilizamos mais propriedades, sendo: top/bottom(mexe com o eixoX) e o left/right (mexe com o eixoY)
+
+- `vertical-align` - Alinha dois ou mais elementos que tenham o `display: inline-block`. Pode ser alinhado pelo: top, baseline
+
+- `box-sizing` - do tipo `border-box` Soma dentro do elemento a width e height com o elemnto de dentro.
+
+- toda regra do css que começa com '-' é uma variação de alguma outra classe, ou seja, complementa outra regra.
+
+- `Description list <dl>` - Lista a descriçao dos produtos.
+
+- `Description title <dt>` - Título da descrição.
+
+- `Define Description <dd>` - Definição da descrição.
