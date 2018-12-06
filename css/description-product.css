@@ -5,22 +5,29 @@
 
 .description-product > .title {
   font-size: 25px;
-  margin-bottom: 75px;
-}
-
-.description-product > .star {
-  display: block;
-  margin-bottom: 25px;
-}
-
-.description-product > .star img {
-  width: 25px;
-  padding-right: 10px;
+  margin-bottom: 50px;
 }
 
 .description-product > .item {
   font-size: 20px;
   margin-bottom: 28px;
+}
+
+.description-product > .item.-heart {
+  position: absolute;
+  transform: translateX(-100%);
+  top: 8px;
+  left: -47px;
+  cursor: pointer;
+}
+
+.description-product > .item.-star {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.description-product > .item.-star + .item {
+  margin-left: 7px;
 }
 
 .description-product > .item.-info {
@@ -41,6 +48,10 @@
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 30px;
+}
+
+.description-product > .text.-more {
+  margin-bottom: 0;
 }
 
 .description-product .action {

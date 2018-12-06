@@ -13,7 +13,6 @@
     <link rel="stylesheet"  href="css/photo-product.css" />
     <link rel="stylesheet"  href="css/wrap-product.css" />
     <link rel="stylesheet"  href="css/description-product.css" />
-    <!-- <link rel="stylesheet"  href="css/container.css" /> -->
 
   </head>
   <body>
@@ -22,6 +21,7 @@
         <h1 class="title">Logo</h1>
 
         <nav class="navigation">
+          <input type="search" placeholder="busca">
           <a class="action" href="http://collabcode.training">Produtos</a>
           <a class="action" href="http://collabcode.training">Serviços</a>
           <a class="action -last" href="http://collabcode.training">Carrinho (10)</a>
@@ -34,13 +34,15 @@
         <section class="wrap-product">
           <dl class="description-product">
             <dt class="title">Fone top, feliz e caro</dt>
-            <dt class="star">
-                <img src="image/star_black.png" alt="uma estrela">
-                <img src="image/star_black.png" alt="duas estrelas">
-                <img src="image/star_black.png" alt="três estrelas">
-                <img src="image/star_red.png" alt="quatro estrelas">
+            <dd class="item -heart">
+              <img src="image/heart.png" alt="Like">
+            </dd>
+            <dt class="item -star">
+                <img src="image/star_black.png" alt="Estrela">
+                <img src="image/star_black.png" alt="Estrela">
+                <img src="image/star_black.png" alt="Estrela">
+                <img src="image/star_red.png" alt="Estrela">
             </dt>
-
             <dd class="item">4.0 (97)</dd>
             <dd class="item -info"><strong class="contrast">Frete</strong>C$ 108</dd>
             <dd class="item -info -last"><strong class="contrast">Preço</strong>C$ 340</dd>
@@ -48,11 +50,13 @@
               A cor também é algo que impressiona junto com o
               seu layout modernão! Ele é caro? É! Mas compre que
               você não vai se arrepender e se você se arrepender pode vender no mercado livre..kkkk</dd>
-            <dd class="text"><a class="action" href="#">Saber mais...</a></dd>
+            <dd class="text -more"><a class="action" href="#">Saber mais...</a></dd>
           </dl>
+          <div class="buttons">
+            <button class="button-store -second">Adicionar ao carrinho</button>
+            <a class="button-store" href="comprar.html">Comprar</a>
+          </div>
         </section>
-        <button class="button-store -second">Adicionar ao carrinho</button>
-        <a class="button-store" href="comprar.html">Comprar</a>
-    </div>
-  </body>
-</html>
+      </div>
+    </body>
+  </html>
