@@ -68,6 +68,12 @@
   transform: scale(1);
 }
 
+@media (max-width: 1310px) {
+  .header-store {
+    padding-right: 60px;
+  }
+}
+
 @media (max-width: 1235px) {
   .header-store > .title {
     float: none;
@@ -84,6 +90,7 @@
 @media (max-width: 955px) {
   .header-store {
     padding-left: 30px;
+    padding-right: 30px;
   }
   .header-store [type="search"] {
     display: none;
@@ -105,6 +112,7 @@
 @media (max-width: 375px) {
   .header-store {
     padding-left: 16px;
+    padding-right: 16px;
   }
   .header-store .action {
     margin-right: 8px;
