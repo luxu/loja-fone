@@ -9,17 +9,12 @@
 const $heart = window.document.querySelector(".-heart");
 $heart.addEventListener("click", handleClick);
 function handleClick() {
-  console.log('ae');
+  // if ($heart.classList.contains('-active')){
+  //   $heart.classList.remove('-active');
+  // } else {
+  //   $heart.classList.add('-active');
+  // }
+
+  // Testa se a class existe ou não e inverte a resposta
+  $heart.classList.toggle("-active");
 }
-
-// Primeiro Desafio
-const $carrinho = window.document.querySelector(".-second");
-console.log($carrinho);
-
-// Segundo Desafio
-$carrinho.addEventListener("click", handleClick);
-function handleClick() {
-  console.log('carrinho');
-}
-
-// Terceiro Desafio
