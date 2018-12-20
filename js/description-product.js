@@ -6,15 +6,15 @@
 5 - No momento que o usuário clicar, nós queremos mostrar um texto AE
 */
 
-const $heart = window.document.querySelector(".-heart");
-$heart.addEventListener("click", handleClick);
-function handleClick() {
-  // if ($heart.classList.contains('-active')){
-  //   $heart.classList.remove('-active');
-  // } else {
-  //   $heart.classList.add('-active');
-  // }
+const $heart = document.querySelector(".-heart");
+const $stars = document.querySelectorAll(".star");
 
-  // Testa se a class existe ou não e inverte a resposta
-  $heart.classList.toggle("-active");
+$heart.addEventListener("click", handleClick);
+
+$stars.forEach(function ($star) {
+  $star.addEventListener("click", handleClick);
+});
+
+function handleClick() {
+  this.classList.toggle("-active");
 }
