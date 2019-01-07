@@ -62,7 +62,7 @@ Exemplo de uso para qdo temos 1 valor igual. top right/left bottom (10px 20px 30
 
 - `vertical-align` - Alinha dois ou mais elementos que tenham o `display: inline-block`. Pode ser alinhado pelo: top, baseline
 
-- `box-sizing` - do tipo `border-box` Soma dentro do elemento a width e height com o elemnto de dentro.
+- `box-sizing` - do tipo `border-box` Soma dentro do elemento a width e height com o elemento de dentro.
 
 - toda regra do css que começa com '-' é uma variação de alguma outra classe, ou seja, complementa outra regra.
 
