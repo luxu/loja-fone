@@ -101,7 +101,17 @@
     padding-right: 30px;
   }
   .header-store [type="search"] {
-    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-88%);
+    background-color: #fff;
+    color: #000;
+    transition: transform 200ms linear;
+  }
+  .header-store .-active[type="search"]{
+    transition: transform 600ms cubic-bezier(0,0,1,1.37);
+    transform: translateX(0);
   }
 }
 

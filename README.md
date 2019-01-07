@@ -56,7 +56,7 @@ Exemplo de uso para qdo temos 1 valor igual. top right/left bottom (10px 20px 30
 
 - `display` - block: não deixa na mesma linha e podemos definir o width e height
 
--  `line-height` - Alinha verticalmente qdo tem uma linha de texto dentro da caixa
+- `line-height` - Alinha verticalmente qdo tem uma linha de texto dentro da caixa
 
 - `position: absolute` - Cria um novo contexto, movendo o elemento na tela de forma absoluta e manda para trás ou some os outros elementos da página e quem define a largura e altura é o conteúdo. Por isso junto com o `position: absolute` utilizamos mais propriedades, sendo: top/bottom(mexe com o eixoX) e o left/right (mexe com o eixoY)
 
@@ -71,3 +71,8 @@ Exemplo de uso para qdo temos 1 valor igual. top right/left bottom (10px 20px 30
 - `Description title <dt>` - Título da descrição.
 
 - `Define Description <dd>` - Definição da descrição.
+
+- `transform` - Posicionamento da tela de algum elemento, qdo negativo vai para esquerda e qdo não vai para direita.
+
+- `transition` - Acontece para 'animar' um elemento que tenha uma alteração de inicio e fim. ex.: `transform: translateX(0)` até `transform: translateX(-88%)`.
+Sintaxe: transition: transform 200ms linear
